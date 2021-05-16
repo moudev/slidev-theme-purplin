@@ -9,6 +9,7 @@
 html:not(.dark) {
   --prism-foreground: #393a34;
   --prism-background: #f8f8f8;
+  --prism-code-border: #e9d5ff;
   --prism-comment: #a0ada0;
   --prism-string: #b56959;
   --prism-literal: #2f8a89;
@@ -31,6 +32,7 @@ html:not(.dark) {
 html.dark {
   --prism-foreground: #d4cfbf;
   --prism-background: #1b1b1b;
+  --prism-code-border: #323232;
   --prism-comment: #758575;
   --prism-string: #d48372;
   --prism-literal: #429988;
@@ -55,7 +57,8 @@ html.dark {
 }
 
 pre[class*='language-'] {
-  @apply p-2;
+  @apply p-2 border border-opacity-50;
+  border-color: var(--prism-code-border);
 }
 
 :not(pre) > code {
