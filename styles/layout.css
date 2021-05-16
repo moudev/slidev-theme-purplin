@@ -84,7 +84,8 @@
 }
 
 .slidev-layout.cover,
-.slidev-layout.intro {
+.slidev-layout.intro,
+.slidev-layout.quote {
   @apply h-full grid;
 
   h1 {
@@ -93,5 +94,12 @@
 
   h1 + p {
     @apply opacity-40 -mt-4 text-2xl;
+  }
+}
+
+.slidev-layout.quote {
+  h1 {
+    @apply font-bold leading-none;
+    @apply mb-8;
   }
 }
