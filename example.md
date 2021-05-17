@@ -13,6 +13,30 @@ Presentation slides for developers
 </div>
 
 ---
+layout: image-x
+image: 'https://source.unsplash.com/collection/94734566/600x600'
+imageOrder: 1
+---
+
+# layout: image-x
+
+imageOrder: 1
+
+image 600x600
+
+---
+layout: image-x
+image: 'https://source.unsplash.com/collection/94734566/1080x1920'
+imageOrder: 2
+---
+
+# layout: image-x
+
+imageOrder: 2
+
+image 1080x1920
+
+---
 layout: quote
 position: center
 ---
