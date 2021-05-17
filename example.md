@@ -13,6 +13,16 @@ Presentation slides for developers
 </div>
 
 ---
+layout: quote
+position: center
+---
+
+# "layout: quote"
+position: center
+
+'position' variants: left (default), center, right
+
+---
 
 # What is Slidev?
 
