@@ -2,7 +2,7 @@
 theme: none
 ---
 
-# Slidev Theme Starter
+# Slidev Theme Purplin
 
 Presentation slides for developers
 
@@ -11,6 +11,73 @@ Presentation slides for developers
     Press Space for next page <carbon:arrow-right class="inline"/>
   </span>
 </div>
+
+<BarBottom
+  title="Slidev theme purplin"
+  :social="[
+    { type: 'gh', username: 'slidevjs/slidev' },
+    { type: 'tw', username: 'Slidevjs' },
+    { type: 'wb', username: 'sli.dev' }
+  ]"
+/>
+
+---
+layout: intro
+---
+
+## BarBottom component
+
+<br />
+<br />
+
+<div class="grid grid-cols-2 gap-x-4">
+<div>
+This component displays a bar at the bottom of the slide.
+
+The component needs to be added to each slide that we want to display.
+
+Component props:
+
+- title: String
+- social: Array
+
+Social types:
+
+- 'yt': YouTube, 'fb': Facebook, 'ig': Instagram, 'tw': Twitter, 'gh': GitHub, 'lk': LinkedIn, 'wb': Web
+
+</div>
+<div>
+
+### Slide example
+
+```markdown
+---
+layout: intro
+---
+
+# Content
+
+<BarBottom
+  title="Slidev theme purplin"
+  :social="[
+    { type: 'gh', username: 'slidevjs/slidev' },
+    { type: 'tw', username: 'Slidevjs' },
+    { type: 'wb', username: 'sli.dev' }
+  ]"
+/>
+```
+
+</div>
+</div>
+
+<BarBottom
+  title="Slidev theme purplin"
+  :social="[
+    { type: 'gh', username: 'slidevjs/slidev' },
+    { type: 'tw', username: 'Slidevjs' },
+    { type: 'wb', username: 'sli.dev' }
+  ]"
+/>
 
 ---
 layout: image-x
@@ -24,6 +91,15 @@ imageOrder: 1
 
 image 600x600
 
+<BarBottom
+  title="Slidev theme purplin"
+  :social="[
+    { type: 'gh', username: 'slidevjs/slidev' },
+    { type: 'tw', username: 'Slidevjs' },
+    { type: 'wb', username: 'sli.dev' }
+  ]"
+/>
+
 ---
 layout: image-x
 image: 'https://source.unsplash.com/collection/94734566/1080x1920'
@@ -36,6 +112,15 @@ imageOrder: 2
 
 image 1080x1920
 
+<BarBottom
+  title="Slidev theme purplin"
+  :social="[
+    { type: 'gh', username: 'slidevjs/slidev' },
+    { type: 'tw', username: 'Slidevjs' },
+    { type: 'wb', username: 'sli.dev' }
+  ]"
+/>
+
 ---
 layout: quote
 position: center
@@ -45,6 +130,15 @@ position: center
 position: center
 
 'position' variants: left (default), center, right
+
+<BarBottom
+  title="Slidev theme purplin"
+  :social="[
+    { type: 'gh', username: 'slidevjs/slidev' },
+    { type: 'tw', username: 'Slidevjs' },
+    { type: 'wb', username: 'sli.dev' }
+  ]"
+/>
 
 ---
 
@@ -65,6 +159,14 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
+<BarBottom
+  title="Slidev theme purplin"
+  :social="[
+    { type: 'gh', username: 'slidevjs/slidev' },
+    { type: 'tw', username: 'Slidevjs' },
+    { type: 'wb', username: 'sli.dev' }
+  ]"
+/>
 
 ---
 
@@ -80,6 +182,15 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>left</kbd> | previous animation or slide |
 | <kbd>up</kbd> | previous slide |
 | <kbd>down</kbd> | next slide |
+
+<BarBottom
+  title="Slidev theme purplin"
+  :social="[
+    { type: 'gh', username: 'slidevjs/slidev' },
+    { type: 'tw', username: 'Slidevjs' },
+    { type: 'wb', username: 'sli.dev' }
+  ]"
+/>
 
 ---
 layout: image-right
@@ -105,6 +216,15 @@ function updateUser(id: number, update: Partial<User>) {
 }
 ```
 
+<BarBottom
+  title="Slidev theme purplin"
+  :social="[
+    { type: 'gh', username: 'slidevjs/slidev' },
+    { type: 'tw', username: 'Slidevjs' },
+    { type: 'wb', username: 'sli.dev' }
+  ]"
+/>
+
 ---
 layout: center
 class: "text-center"
@@ -113,3 +233,12 @@ class: "text-center"
 # Learn More
 
 [Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+
+<BarBottom
+  title="Slidev theme purplin"
+  :social="[
+    { type: 'gh', username: 'slidevjs/slidev' },
+    { type: 'tw', username: 'Slidevjs' },
+    { type: 'wb', username: 'sli.dev' }
+  ]"
+/>
