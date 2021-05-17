@@ -1,10 +1,25 @@
 {
   "name": "slidev-theme-purplin",
   "version": "0.0.0",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "description": "Purplin theme for Slidev",
   "keywords": [
     "slidev-theme",
     "slidev"
   ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moudev/slidev-theme-purplin"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all"
+  },
+  "author": "Mauricio Martínez <mauriciomartinezsocial@gmail.com>",
+  "bugs": "https://github.com/moudev/slidev-theme-purplin/issues",
   "scripts": {
     "dev": "slidev example.md --open",
     "build": "slidev build example.md",
