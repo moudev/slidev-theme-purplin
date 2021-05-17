@@ -15,6 +15,7 @@ export default mergeWindicssConfig(
       // custom the default background
       'bg-main': 'bg-purple-50 text-purple-900 dark:(bg-[#121212] text-purple-100)',
       'border-image': 'border border-[#121212] border-opacity-10 shadow-md shadow-[#121212] dark:(border-purple-100 border-opacity-10 shadow-purple-100)',
+      'bg-barBottom': 'bg-purple-900 text-purple-50 dark:(bg-purple-900 text-purple-50)',
     },
     theme: {
       extend: {
