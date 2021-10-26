@@ -33,7 +33,7 @@ export default defineComponent({
       <div class="w-1/2 flex justify-center items-center p-8 max-h-md object-cover" :class="imageOrder">
         <img :src="image" class="rounded-2xl border-image h-full object-cover" />
       </div>
-      <div class="w-1/2 flex items-center" :class="textAlignment">
+      <div class="w-1/2 flex flex-col justify-center" :class="textAlignment">
         <slot />
       </div>
     </div>
