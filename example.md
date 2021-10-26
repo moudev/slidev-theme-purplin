@@ -81,7 +81,7 @@ layout: intro
 
 ---
 layout: image-x
-image: 'https://source.unsplash.com/collection/94734566/600x600'
+image: 'https://user-images.githubusercontent.com/13499566/138951075-018e65d5-b5fe-4200-9ea7-34315b1764da.jpg'
 imageOrder: 1
 ---
 
@@ -102,7 +102,7 @@ image 600x600
 
 ---
 layout: image-x
-image: 'https://source.unsplash.com/collection/94734566/1080x1920'
+image: 'https://user-images.githubusercontent.com/13499566/138950866-7d2addb2-fe3f-41f5-aab6-d35688516612.jpg'
 imageOrder: 2
 ---
 
@@ -194,7 +194,7 @@ Hover on the bottom-left corner to see the navigation's controls panel
 
 ---
 layout: image-right
-image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+image: 'https://user-images.githubusercontent.com/13499566/138950614-52ec045b-aa93-4d52-91df-b782cc9c7143.jpg'
 ---
 
 # Code
