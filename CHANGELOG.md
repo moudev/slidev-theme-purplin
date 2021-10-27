@@ -1,3 +1,32 @@
+### 1.1.0 (2021-10-27)
+
+##### Chores
+
+*  upgrade dependencies ([ed0a785b](https://github.com/moudev/slidev-theme-purplin/commit/ed0a785b48c3dcdfda3d8761a03fb60bdca82cc8))
+
+##### Documentation Changes
+
+*  add build badge ([709df33e](https://github.com/moudev/slidev-theme-purplin/commit/709df33e7a16f8be948587023ec92d2f1a208b4c))
+*  add live demo link ([c238dd8a](https://github.com/moudev/slidev-theme-purplin/commit/c238dd8adefc78c64296b7c745fd82e38de1a462))
+*  update example slides ([74876443](https://github.com/moudev/slidev-theme-purplin/commit/748764436eae799565b6d72b7a7bd3b3ebf14e5b))
+*  update instructions to use BarBottom ([fbcc1275](https://github.com/moudev/slidev-theme-purplin/commit/fbcc12752b7a4077648faffb03d41c3b18213dcf))
+
+##### New Features
+
+*  add demo ([b8e3c1b8](https://github.com/moudev/slidev-theme-purplin/commit/b8e3c1b8d7e93bd75a08eb055a40741582a24aa4))
+
+##### Bug Fixes
+
+*  change example images url ([cc468549](https://github.com/moudev/slidev-theme-purplin/commit/cc468549bae0c1646394f6b5297f46b00bdb1e53))
+
+##### Refactors
+
+*  update BarBottom to display any icon ([9e72f478](https://github.com/moudev/slidev-theme-purplin/commit/9e72f478130c8a450eb49245c46f533eff2c8eac))
+
+##### Code Style Changes
+
+*  update text section ([dbaacdc6](https://github.com/moudev/slidev-theme-purplin/commit/dbaacdc6c1cf7d433979193e5ec5e6dcc5d5bf35))
+
 ## 1.0.0 (2021-05-17)
 
 ##### Chores
