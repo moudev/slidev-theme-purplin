@@ -2,6 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-purplin?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-purplin)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c011b5f3-5d1f-4c16-a1df-929b1e503724/deploy-status)](https://app.netlify.com/sites/slidev-theme-purplin/deploys)
+
 A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
 
 <!--
