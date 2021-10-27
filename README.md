@@ -96,20 +96,11 @@ This component displays a bar at the bottom of the slide.
 
 The component needs to be added to each slide where we want to display it.
 
-_Component props:_
+Receives a `title` prop that is the text displayed on the left.
 
-- title: String
-- social: Array
+This component uses `slots` to add items on the right. Exist an `<Item />` component that receives a `text` prop and uses `slots` to add the icon/image.
 
-_Social types:_
-
-- yt: YouTube
-- fb: Facebook
-- ig: Instagram
-- tw: Twitter
-- gh: GitHub
-- lk: LinkedIn
-- wb: Web
+Exist a large [list of icon collections](https://icones.js.org/collection) available to select and that you can use. These icons are imported automatically by _slidev_, you don't need to configure anything else to use them.
 
 Usage:
 
@@ -128,18 +119,67 @@ Presentation slides for developers
   </span>
 </div>
 
-<BarBottom
-  title="Slidev theme purplin"
-  :social="[
-    { type: 'gh', username: 'slidevjs/slidev' },
-    { type: 'tw', username: 'Slidevjs' },
-    { type: 'wb', username: 'sli.dev' }
-  ]"
-/>
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <carbon:link />
+  </Item>
+</BarBottom>
 ```
+
+This example uses [carbon collection](https://icones.js.org/collection/carbon).
 
 ![barBottom-component](https://user-images.githubusercontent.com/13499566/118434724-287ae800-b6a3-11eb-8e7c-b52d5765245a.png)
 
+**How to use other available icons**
+
+You have to go to the [icon list](https://icones.js.org/collection) and select a collection, click on an icon a copy its name. You don't need to do anything else, only copy the name and use an `<Item />` component and the icon will be automatically imported from the collections.
+
+**How to use custom icon/image**
+
+You can use your own icons/images if you want, you only need to add an `<Item />` component and use `slots` features.
+
+Also, you can use [Windi CSS](https://windicss.org/) to add style to the icon, for example, adjust the width o height.
+
+Usage:
+
+```markdown
+---
+layout: intro
+---
+
+# Slidev Theme Purplin
+
+Presentation slides for developers
+
+<div class="pt-12">
+  <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
+    Press Space for next page <carbon:arrow-right class="inline"/>
+  </span>
+</div>
+
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
+  </Item>
+</BarBottom>
+```
+
+![barBottom-component](https://user-images.githubusercontent.com/13499566/139119534-4398a2ff-4f83-4282-9d12-bf5f27b99174.png)
 
 ## Contributing
 
