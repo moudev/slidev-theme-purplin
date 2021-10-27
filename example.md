@@ -28,25 +28,20 @@ Presentation slides for developers
 layout: intro
 ---
 
-## BarBottom component
+## `<BarBottom />` component
 
 <br />
 <br />
 
 <div class="grid grid-cols-2 gap-x-4">
 <div>
-This component displays a bar at the bottom of the slide.
+This component displays a bar at the bottom of the slide. The component needs to be added to each slide where we want to display it.
 
-The component needs to be added to each slide that we want to display.
+Receives a `title` prop that is the text displayed on the left.
 
-Component props:
+This component uses `slots` to add items on the right. Exist an `<Item />` component that receives a `text` prop and uses `slots` to add the icon/image.
 
-- title: String
-- social: Array
-
-Social types:
-
-- 'yt': YouTube, 'fb': Facebook, 'ig': Instagram, 'tw': Twitter, 'gh': GitHub, 'lk': LinkedIn, 'wb': Web
+Exist a large [list of icon collections](https://icones.js.org/collection) available that you can use. These icons are imported automatically by _slidev_, you don't need to configure anything else to use them.
 
 </div>
 <div>
@@ -60,14 +55,17 @@ layout: intro
 
 # Content
 
-<BarBottom
-  title="Slidev theme purplin"
-  :social="[
-    { type: 'gh', username: 'slidevjs/slidev' },
-    { type: 'tw', username: 'Slidevjs' },
-    { type: 'wb', username: 'sli.dev' }
-  ]"
-/>
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <carbon:link />
+  </Item>
+</BarBottom>
 ```
 
 </div>
@@ -82,6 +80,70 @@ layout: intro
   </Item>
   <Item text="sli.dev">
     <carbon:link />
+  </Item>
+</BarBottom>
+
+---
+layout: intro
+---
+
+## `<BarBottom />` with custom icons/images
+
+<br />
+<br />
+
+<div class="grid grid-cols-2 gap-x-4">
+<div>
+
+You can use your own icons/images if you want.
+
+Only need to add an `<Item />` component and use `slots` features.
+
+Also, you can use [Windi CSS](https://windicss.org/) to add style to the icon, for example, adjust the width o height.
+
+</div>
+<div>
+
+### Slide example
+
+```markdown
+---
+layout: intro
+---
+
+# Content
+
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
+  </Item>
+</BarBottom>
+```
+
+</div>
+</div>
+
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
   </Item>
 </BarBottom>
 

@@ -100,7 +100,7 @@ Receives a `title` prop that is the text displayed on the left.
 
 This component uses `slots` to add items on the right. Exist an `<Item />` component that receives a `text` prop and uses `slots` to add the icon/image.
 
-Exist a large [list of icon collections](https://icones.js.org/collection) available to select and that you can use. These icons are imported automatically by _slidev_, you don't need to configure anything else to use them.
+Exist a large [list of icon collections](https://icones.js.org/collection) available that you can use. These icons are imported automatically by _slidev_, you don't need to configure anything else to use them.
 
 Usage:
 
