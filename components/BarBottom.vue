@@ -4,9 +4,6 @@ export default {
     title: {
       type: String,
     },
-    social: {
-      type: Array
-    }
   }
 }
 </script>
@@ -17,10 +14,7 @@ export default {
       {{ title }}
     </div>
     <div class="w-1/2 flex justify-end">
-      <div v-for="type in social" :key="type.type" class="flex justify-center items-center ml-4">
-        <span><LogoIcon :type="type.type" /></span>
-        <span class="ml-0.5">{{type.username}}</span>
-      </div>
+      <slot />
     </div>
   </div>
 </template>

@@ -12,14 +12,17 @@ Presentation slides for developers
   </span>
 </div>
 
-<BarBottom
-  title="Slidev theme purplin"
-  :social="[
-    { type: 'gh', username: 'slidevjs/slidev' },
-    { type: 'tw', username: 'Slidevjs' },
-    { type: 'wb', username: 'sli.dev' }
-  ]"
-/>
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <carbon:link />
+  </Item>
+</BarBottom>
 
 ---
 layout: intro
@@ -70,14 +73,17 @@ layout: intro
 </div>
 </div>
 
-<BarBottom
-  title="Slidev theme purplin"
-  :social="[
-    { type: 'gh', username: 'slidevjs/slidev' },
-    { type: 'tw', username: 'Slidevjs' },
-    { type: 'wb', username: 'sli.dev' }
-  ]"
-/>
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <carbon:link />
+  </Item>
+</BarBottom>
 
 ---
 layout: image-x
@@ -91,14 +97,17 @@ imageOrder: 1
 
 image 600x600
 
-<BarBottom
-  title="Slidev theme purplin"
-  :social="[
-    { type: 'gh', username: 'slidevjs/slidev' },
-    { type: 'tw', username: 'Slidevjs' },
-    { type: 'wb', username: 'sli.dev' }
-  ]"
-/>
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <carbon:link />
+  </Item>
+</BarBottom>
 
 ---
 layout: image-x
@@ -112,14 +121,17 @@ imageOrder: 2
 
 image 1080x1920
 
-<BarBottom
-  title="Slidev theme purplin"
-  :social="[
-    { type: 'gh', username: 'slidevjs/slidev' },
-    { type: 'tw', username: 'Slidevjs' },
-    { type: 'wb', username: 'sli.dev' }
-  ]"
-/>
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <carbon:link />
+  </Item>
+</BarBottom>
 
 ---
 layout: quote
@@ -131,14 +143,17 @@ position: center
 
 'position' variants: left (default), center, right
 
-<BarBottom
-  title="Slidev theme purplin"
-  :social="[
-    { type: 'gh', username: 'slidevjs/slidev' },
-    { type: 'tw', username: 'Slidevjs' },
-    { type: 'wb', username: 'sli.dev' }
-  ]"
-/>
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <carbon:link />
+  </Item>
+</BarBottom>
 
 ---
 
@@ -159,14 +174,17 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
-<BarBottom
-  title="Slidev theme purplin"
-  :social="[
-    { type: 'gh', username: 'slidevjs/slidev' },
-    { type: 'tw', username: 'Slidevjs' },
-    { type: 'wb', username: 'sli.dev' }
-  ]"
-/>
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <carbon:link />
+  </Item>
+</BarBottom>
 
 ---
 
@@ -183,14 +201,17 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>up</kbd> | previous slide |
 | <kbd>down</kbd> | next slide |
 
-<BarBottom
-  title="Slidev theme purplin"
-  :social="[
-    { type: 'gh', username: 'slidevjs/slidev' },
-    { type: 'tw', username: 'Slidevjs' },
-    { type: 'wb', username: 'sli.dev' }
-  ]"
-/>
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <carbon:link />
+  </Item>
+</BarBottom>
 
 ---
 layout: image-right
@@ -216,14 +237,17 @@ function updateUser(id: number, update: Partial<User>) {
 }
 ```
 
-<BarBottom
-  title="Slidev theme purplin"
-  :social="[
-    { type: 'gh', username: 'slidevjs/slidev' },
-    { type: 'tw', username: 'Slidevjs' },
-    { type: 'wb', username: 'sli.dev' }
-  ]"
-/>
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <carbon:link />
+  </Item>
+</BarBottom>
 
 ---
 layout: center
@@ -234,11 +258,14 @@ class: "text-center"
 
 [Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
 
-<BarBottom
-  title="Slidev theme purplin"
-  :social="[
-    { type: 'gh', username: 'slidevjs/slidev' },
-    { type: 'tw', username: 'Slidevjs' },
-    { type: 'wb', username: 'sli.dev' }
-  ]"
-/>
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <carbon:link />
+  </Item>
+</BarBottom>
