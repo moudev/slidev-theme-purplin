@@ -12,9 +12,7 @@ run `npm run dev` to check out the slides for more details of how to start writi
 put some screenshots here to demonstrate your theme,
 -->
 
-<!-- 
-Live demo: [...]
--->
+Live demo: https://slidev-theme-purplin.netlify.app/
 
 ## Install
 
