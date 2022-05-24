@@ -1,5 +1,5 @@
 ---
-theme: none
+theme: purplin
 ---
 
 # Slidev Theme Purplin
