@@ -1,5 +1,9 @@
 ---
-theme: purplin
+# replace "./" with "purplin"
+# when you copy this example.md file over
+# to your own slidev environment and install
+# purplin as a module
+theme: ./
 ---
 
 # Slidev Theme Purplin
