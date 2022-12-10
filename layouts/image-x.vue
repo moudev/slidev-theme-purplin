@@ -1,30 +1,21 @@
+<script setup>
+import { computed } from 'vue'
 
-<script>
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  props: {
-    image: {
-      type: String,
-      required: true,
-    },
-    imageOrder: {
-      type: Number,
-      required: true,
-    },
+const props = defineProps({
+  image: {
+    type: String,
+    required: true,
   },
-  setup(props) {
-    const imageOrder = props.imageOrder === 1 ? 'order-1' : 'order-2'
-    const textAlignment = props.imageOrder === 1
-      ? 'text-right order-2 justify-end'
-      : 'text-left order-1 justify-start'
-
-    return {
-      imageOrder,
-      textAlignment,
-    }
-  },
+  imageOrder: {
+    type: Number,
+    required: true
+  }
 })
+
+const imageOrder = computed(() => props.imageOrder === 1 ? 'order-1' : 'order-2')
+const textAlignment = computed(() => props.imageOrder === 1
+      ? 'text-right order-2 justify-end'
+      : 'text-left order-1 justify-start')
 </script>
 
 <template>

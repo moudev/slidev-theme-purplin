@@ -30,8 +30,8 @@
     "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'feat(docs): updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
   },
   "dependencies": {
-    "@slidev/cli": "^0.27.9",
-    "@slidev/theme-default": "^0.21.0"
+    "@slidev/cli": "^0.37.1",
+    "@slidev/theme-default": "^0.21.2"
   },
   "devDependencies": {
     "generate-changelog": "^1.8.0"
