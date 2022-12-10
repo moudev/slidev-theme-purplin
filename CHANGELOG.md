@@ -1,3 +1,13 @@
+### 1.2.0 (2022-12-10)
+
+##### Documentation Changes
+
+*  update example to use the purplin theme ([8c4c0967](https://github.com/moudev/slidev-theme-purplin/commit/8c4c0967684a0711577e604f286570ffaedd6d53))
+
+##### Bug Fixes
+
+*  update slidev version and update setup() ([5b271235](https://github.com/moudev/slidev-theme-purplin/commit/5b27123518a75d6ca880024eeb5b2f13db9e4ff7))
+
 ### 1.1.0 (2021-10-27)
 
 ##### Chores
